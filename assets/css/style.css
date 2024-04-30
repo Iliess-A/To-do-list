@@ -1,1 +1,49 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(241, 241, 145);
+  color: blueviolet;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  width: 70%;
+  background-color: rgba(137, 43, 226, 0.349);
+  border-radius: 15PX;
+}
+body main section input {
+  border-radius: 5px;
+  background-color: rgb(241, 241, 145);
+  color: blueviolet;
+  font-weight: bold;
+}
+body main section ul {
+  list-style-type: none;
+  background-color: rgba(241, 241, 145, 0.651);
+  border-radius: 15px;
+  padding: 5px;
+}
+body main section ul li {
+  display: flex;
+  justify-content: flex-end;
+}
+body main section ul input[type=checkbox]:checked + li {
+  text-decoration: line-through;
+}
+body main section ul button {
+  background: none;
+  border-radius: 20px;
+  color: rgb(241, 241, 145);
+  background-color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
